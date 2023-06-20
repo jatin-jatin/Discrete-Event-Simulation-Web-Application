@@ -2,6 +2,8 @@
 
 ## Project Description
 This project simulates the following charateristics of a Web application in  a closed loop
+
+![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System.png)
 * Multi-Core Server Machine
 * Multi-threaded Web Server
 * Thread-per task model - with buffering for requests
@@ -9,9 +11,6 @@ This project simulates the following charateristics of a Web application in  a c
 * Request time-outs with retries
 * Users in closed loop with think time
 * Execution Time and timeout - options for distribution
-
-
-![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System.png)
 ## Discrete Event Simulation
 
 ## Performance Metrics
