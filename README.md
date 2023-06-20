@@ -5,7 +5,7 @@ This project simulates the following charateristics of a Web application with re
 
 * Multi-Core Server Machine
 * Multi-threaded Web Server
-![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System-new.png)
+![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Discrete-Event-Simulator-General.png)
 * Thread-per task model - with buffering for requests
 * Round-robin scheduling
 * Request time-outs with retries
@@ -14,12 +14,22 @@ This project simulates the following charateristics of a Web application with re
 
 <!-- **Web server system with request in a closed loop** -->
 ## Discrete Event Simulation
+### Features of a Discrete Event Simulator
+* There are events which happen discretely. 
+* All events are processed from a queue called the event queue. 
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System-new.png)
+* The current event is the event which is popped from the queue.
+* Based upon the event corresponding event handler is called.
+* The event handler itself leads the creation of more events.
+* This cycle continues till a specified condition or the queue becomes empty.
+
 In our Simulation there are 4 events with 4 corresponding event handlers:
 1. Request Arrival - onArrival()
 1. Thread Context Switch - onContextSwitch()
 1. Thread Preemption - onPreemption()
 1. Request Departure - onDeparture()
 
+*For more details check the **simulation.cpp** file*
 ## Build Instructions
 ### Linux
 **Build Instructions**
