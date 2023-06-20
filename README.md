@@ -5,7 +5,7 @@ This project simulates the following charateristics of a Web application with re
 
 * Multi-Core Server Machine
 * Multi-threaded Web Server
-![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Discrete-Event-Simulator-General.png)
+![Web-server-system-diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System-new.png)
 * Thread-per task model - with buffering for requests
 * Round-robin scheduling
 * Request time-outs with retries
@@ -17,7 +17,7 @@ This project simulates the following charateristics of a Web application with re
 ### Features of a Discrete Event Simulator
 * There are events which happen discretely. 
 * All events are processed from a queue called the event queue. 
-![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Web-Server-System-new.png)
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Discrete-Event-Simulator-General.png)
 * The current event is the event which is popped from the queue.
 * Based upon the event corresponding event handler is called.
 * The event handler itself leads the creation of more events.
