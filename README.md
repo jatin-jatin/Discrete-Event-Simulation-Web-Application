@@ -15,13 +15,13 @@ This project simulates the following charateristics of a Web application with re
 <!-- **Web server system with request in a closed loop** -->
 ## Discrete Event Simulation
 ### Features of a Discrete Event Simulator
-* There are events which happen discretely. 
-* All events are processed from a queue called the event queue. 
+* There are **events** which **happen discretely (one at a time)**. 
+* All events are **processed sequentially** from a queue called the **event queue**. 
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Discrete-Event-Simulator-General.png)
-* The current event is the event which is popped from the queue.
-* Based upon the event corresponding event handler is called.
-* The event handler itself leads the creation of more events.
-* This cycle continues till a specified condition or the queue becomes empty.
+* The **current event** is the event which is **popped from the event queue**. (**In fig. Event - B**)
+* Based upon the event **corresponding event handler is called**.(**In fig. B_Handler**)
+* The **event handler** itself leads to the **creation of more events** which are **pushed** in the **event queue**.(**In fig. Event - D,A**)
+* This **cycle continues** till a **specified condition or the queue becomes empty**.
 
 In our Simulation there are 4 events with 4 corresponding event handlers:
 1. Request Arrival - onArrival()
