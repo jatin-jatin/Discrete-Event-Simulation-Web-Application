@@ -44,9 +44,9 @@ $ make
 $ ./main
 ```
 ## Performance Metrics
-### Avg. Response Time vs number of users
+### Average Response Time vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/resptime-vs-users.png)
 ### Throughput vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/tput-vs-users.png)
-### Avg. core utilization vs number of users
+### Average core utilization vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/util-vs-users.png)
