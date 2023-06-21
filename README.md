@@ -29,7 +29,7 @@ In our Simulation there are 4 events with 4 corresponding event handlers:
 1. Thread Preemption - onPreemption()
 1. Request Departure - onDeparture()
 
-*For more details check the **simulation.cpp** file*
+*For more details check the **[simulation.cpp](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/src/simulation.cpp)** file*
 ## Build Instructions
 ### Linux
 **Build Instructions**
@@ -46,7 +46,7 @@ $ ./main
 ## Performance Metrics
 ### Avg. Response Time vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/resptime-vs-users.png)
-### Throughput, Goodput, Badput vs number of users
+### Throughput vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/tput-vs-users.png)
 ### Avg. core utilization vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/util-vs-users.png)
