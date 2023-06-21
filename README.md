@@ -32,7 +32,7 @@ In our Simulation there are 4 events with 4 corresponding event handlers:
 1. Thread Preemption - onPreemption()
 1. Request Departure - onDeparture()
 
-*For more details check the **[simulation.cpp](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/src/simulation.cpp)** file*
+*For more details check the **[simulation.cpp](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/src/simulation.cpp)** file.*
 ## Build Instructions
 ### Linux
 **Build Instructions**
