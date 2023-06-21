@@ -48,8 +48,16 @@ $ ./main
 ```
 ## Performance Metrics
 ### Average Response Time vs number of users
-![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/resptime-vs-users.png)
-### Throughput vs number of users
-![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/tput-vs-users.png)
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/restime-vs-users.png)
 ### Average core utilization vs number of users
 ![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/util-vs-users.png)
+### Throughput vs number of users
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Tput-vs-users.png)
+### Goodput vs number of users
+**NOTE:Goodput: Requests that complete before time-out**
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/gput-vs-users.png)
+### Badput vs number of users
+**NOTE:Badput: Requests that complete after time-out**
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Bput-vs-users.png)
+### Drops vs number of users
+![Discrete-Event-Simulation-Diagram](https://github.com/jatin-jatin/Discrete-Event-Simulation-Web-Application/blob/main/pictures/Drops-vs-users.png)
